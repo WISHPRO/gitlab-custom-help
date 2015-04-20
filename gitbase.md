@@ -87,20 +87,23 @@ Git BASH не позволит вам ввести не-ASCII символы в 
 сгенерированы для Вашей системы.  
 Для ОС Windows необходимо проверить содержимое каталога %USERPROFILE%\.ssh командой:
 
-   C:\>dir %USERPROFILE%\.ssh  
+    > dir %USERPROFILE%\.ssh  
 
 Если такой каталог существует и в нем присутсвуеют файлы id_rsa и id_rsa.pub, то значит пара ключей 
 сгенерирована и для возможнсоти установления защищенной связис GitLab можно воспользоваться содержимым 
 файла id_rsa.pub.
+Если каталог .ssh не существует создадим его командой:
+
+    > mkdir %USERPROFILE%\.ssh
 
 Если указанные файлы не найдены, то их можно сгенерировать командой:   
 
-    ssh-keygen -t rsa -C "Ваш@e-mail.ru"
+    > "C:\Program Files\Git\bin\ssh-keygen.exe" -t rsa -C "Ваш@e-mail.ru" -f %USERPROFILE%\.ssh\id_rsa
 
 В конечном счете, когда у вас имеется сгенерированая пара файлов id_rsa и id_rsa.pub, можно скопировать 
 открытый ключ в Clipboard командой Windows:   
 
-    clip < %USERPROFILE%\.ssh\id_rsa.pub   
+    > clip < %USERPROFILE%\.ssh\id_rsa.pub   
 
 А затем добавить скопированный ключ в список Ваших ключей в Ваш профил GitLab (Profile->SSH Keys->Add SSH Key).  
 
