@@ -1,14 +1,15 @@
 # Документация
 
-## Документация для пользователей ООО "Газпром трансгаз Нижний Новгород"  
+## Документация для пользователей ООО "Газпром трансгаз Нижний Новгород"
 
-- [Основные приемы работы с GitLab](gtnn/gitlab.md)  
+- [Основные приемы работы с GitLab](gtnn/gitlab.md)
 - [Страница загрузки Git для Windows](gtnn/download.md)
 - [Инструкция по установке Git для Windows](gtnn/msysgit.md)
 - [Первоначальная настройка Git для Windows](gtnn/gitbase.md)
 - [Основные приемы рабочего процесса с использованием Git](gtnn/workflow.md)
 - [Подборка документации по использованию Git на русском языке](gtnn/gitrus.md)
 - [Markdown](gtnn/markdown.md) Простой язык форматирования текста.
+- [Vi & Vim](gtnn/vi.md) Шпаргалка по работе с редактором vi.
 
 ## User documentation
 
@@ -20,6 +21,7 @@
 - [SSH](ssh/README.md) Setup your ssh keys and deploy keys for secure access to your projects.
 - [Web hooks](web_hooks/web_hooks.md) Let GitLab notify you when new code has been pushed to your project.
 - [Workflow](workflow/README.md) Using GitLab functionality and importing projects from GitHub and SVN.
+- [GitLab as OAuth2 authentication service provider](integration/oauth_provider.md). It allows you to login to other applications from GitLab.
 
 ## Administrator documentation
 
