@@ -19,7 +19,7 @@
   
 
 ![PATH Envoronment.](/gtnn/msysgit4.jpg)  
-Рисунок 4. Выбором второй опции включаем в переменную PATH путь к Git.  
+Рисунок 4. Выбором третьей опции включаем в переменную PATH путь к Git и к Unix-утилитам (например нам понадобится далее ssh-keygen).  
   
 
 ![Converstions.](/gtnn/msysgit5.jpg)  
