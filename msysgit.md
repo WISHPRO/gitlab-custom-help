@@ -15,7 +15,7 @@
   
 
 ![Advanced Context Menu.](/gtnn/msysgit3.jpg)  
-Рисунок 3. Обязательно отметить Advanced Context Menu.  
+Рисунок 3. Выбираем интеграцию ярлыков Git-Bash и Git-GUI как простое контекстное меню Windows (используется реестр Windows).  
   
 
 ![PATH Envoronment.](/gtnn/msysgit4.jpg)  
