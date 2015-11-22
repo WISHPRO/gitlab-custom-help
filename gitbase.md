@@ -103,7 +103,7 @@ Git BASH не позволит вам ввести не-ASCII символы в 
 
     git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"  
 
-Конечно, же Notepad++ должен находится по указанному пути.  
+Конечно, же [Notepad++](/help/gtnn/download.md) должен находится по указанному пути.  
 
 
 ### 4. Замена LF на CRLF
