@@ -127,7 +127,7 @@ CR в CRLF:
 
 Если указанные файлы не найдены, то их можно сгенерировать командой:   
 
-    > "C:\Program Files\Git\bin\ssh-keygen.exe" -t rsa -C "Ваш@e-mail.ru" -f %USERPROFILE%\.ssh\id_rsa
+    > ssh-keygen.exe -t rsa -C "Ваш@e-mail.ru" -f %USERPROFILE%\.ssh\id_rsa
 
 В конечном счете, когда у вас имеется сгенерированая пара файлов id_rsa и id_rsa.pub, можно скопировать 
 открытый ключ в Clipboard командой Windows:   
