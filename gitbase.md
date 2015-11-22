@@ -94,6 +94,17 @@ Git BASH не позволит вам ввести не-ASCII символы в 
 
     git config --global --unset i18n.commitencoding
 
+Следующая команда заменяет немного некорректно работающую с кириллицей утилиту less на утилиту cat:  
+
+    git config --global core.pager cat
+
+Ну, а для тех кто не может работать с Unix'like редактором VI можно установить редактор Notepad++ для ввода 
+описаний коммитов:
+
+    git config --global core.editor "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"  
+
+Конечно, же Notepad++ должен находится по указанному пути.  
+
 
 ### 4. Замена LF на CRLF
 

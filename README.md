@@ -3,7 +3,7 @@
 ## Документация для пользователей ООО "Газпром трансгаз Нижний Новгород"
 
 - [Основные приемы работы с GitLab](gtnn/gitlab.md)
-- [Страница загрузки Git для Windows](gtnn/download.md)
+- [Страница загрузки Git и Notepad++ для Windows](gtnn/download.md)
 - [Инструкция по установке Git для Windows](gtnn/msysgit.md)
 - [Первоначальная настройка Git для Windows](gtnn/gitbase.md)
 - [Основные приемы рабочего процесса с использованием Git](gtnn/workflow.md)
