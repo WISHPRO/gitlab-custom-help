@@ -9,7 +9,7 @@ Markdown (маркдаун) — облегчённый язык разметки
 эту разметку для создания файлов README.md к каждому проекту GitLab.
 
 
-- [Шпаргалка по Markdown на русском](/gtnn/markdown_r.pdf)  
-- [Шпаргалка по Markdown на английском](/gtnn/markdown_e.pdf)  
-- [Подробное описание Markdown на английском](../markdown/markdown.md)
+- [Шпаргалка по Markdown на русском](files/markdown_r.pdf)  
+- [Шпаргалка по Markdown на английском](files/markdown_e.pdf)  
+- [Подробное описание Markdown на английском](docs_eng/markdown/markdown.md)
 

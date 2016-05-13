@@ -35,8 +35,8 @@
 Это важно, потому что каждый коммит в Git содержит эту информацию, и она включена в коммиты, 
 передаваемые вами, и не может быть далее изменена:  
 
-    $ git config --global user.name "Dmitry Shelepnev"  
-    $ git config --global user.email shelepnevdv@vtg.gazprom.ru  
+    $ git config --global user.name "Name Surname"  
+    $ git config --global user.email email@example.ru  
 
 
 Эти настройки нужно сделать один раз, если вы указываете параметр --global, поскольку в этом случае 
@@ -58,8 +58,8 @@ Git будет использовать эти данные для всего, �
 показать все, которые Git найдёт:  
 
     $ git config --list
-    user.name=Dmitry Shelepnev
-    user.email=shelepnevdv@vtg.gazprom.ru
+    user.name=Name Surname
+    user.email=email@example.ru
     color.status=auto
     color.branch=auto
     color.interactive=auto
