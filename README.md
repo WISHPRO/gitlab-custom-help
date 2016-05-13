@@ -10,7 +10,6 @@
 - [Markdown](markdown.md) Простой язык форматирования текста.
 - [Vi & Vim](vi.md) Шпаргалка по работе с редактором vi.
 
-## User documentation
 # Documentation
 
 ## User documentation
